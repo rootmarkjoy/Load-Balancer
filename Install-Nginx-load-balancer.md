@@ -137,7 +137,6 @@ When the weight parameter is specified for a server, the weight is accounted as 
 
 ```sh
 upstream myapp1 {
-        ip_hash;
         server 192.168.1.14 weight=3;
         server 192.168.1.15;
         server 192.168.1.16;
